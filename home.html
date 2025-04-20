@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>sk Travel</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css"></style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#img1").fadeToggle();
+                $("#img2").fadeToggle("slow");
+                $("#img3").fadeToggle(3000);
+            });
+        });
+    </script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(to right,black 0%,black 30%,gray 70%,gray 100%);
+        }
+        img:hover {
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg);
+            }
+
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+            }
+
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+            }
+
+            30% {
+                transform: translate(3px, 2px) rotate(0deg);
+            }
+
+            40% {
+                transform: translate(1px, -1px) rotate(1deg);
+            }
+
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+            }
+
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+            }
+
+            80% {
+                transform: translate(-1px, -1px) rotate(1deg);
+            }
+
+            90% {
+                transform: translate(1px, 2px) rotate(0deg);
+            }
+
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+            }
+        }
+
+
+        p1 {
+            color: whitesmoke;
+        }
+
+        p2 {
+            color: whitesmoke;
+        }
+
+        p3 {
+            color: whitesmoke;
+        }
+
+        h2 {
+            color: orange;
+        }
+
+        h1 {
+            color: whitesmoke;
+        }
+
+        h2 {
+            color: orange;
+        }
+
+        h3 {
+            color: whitesmoke;
+        }
+
+                
+      .cont
+{
+    height: 1000px;
+
+}
+.card1
+{
+float: left;
+margin-left: 100px;
+box-shadow: 10px 10px 5px rgb(6, 128, 139);
+}
+.card2
+{
+float: left;
+margin-left: 100px;
+box-shadow: 10px 10px 5px rgb(6, 128, 139);
+}
+.card3
+{
+float: left;
+margin-left: 100px;
+box-shadow: 10px 10px 5px rgb(6, 128, 139);
+}
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="jumbotron text-center" style="margin-bottom: 0;background-color:olivedrab">
+        <h1>
+            Immigration Consultant Agency
+        </h1>
+        <p>
+            WE HELP EVERY PEOPLE REAL GUIDANCE FOR EDUCATION & EMPLOYMENT SYSTEM  ABOUT  ALL COUNTRIES !
+        </p>
+    </div>
+
+
+    <nav class="navbar navbar-inverse">
+        <div>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"><</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="homePage.html">HOME</a> </li>
+                        <li><a href="office.html">OFFICE</a></li>
+                        <li><a href="demand.html">NEW DEMAND</a></li>
+
+                        <li><a href="contact.html">CONTACT US</a></li>
+                     
+                        <li><a href="location.html">LOCATION</a></li>
+                        <li class="drodown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">VISA INFO<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="workvisa.html">WORK VISA INFO</a></li>
+                                <li><a href="studyvisa.html">STUDY VISA INFO</a></li>
+                                <li><a href="businessvisa.html">BUSINESS VISA INFO</a></li>
+                                <li><a href="touristvisa.html">TOURIST VISA INFO</a></li>
+                                <ul class="dropdown-menu">
+                                    <li><a href="send.html.html">SEND DETAIL</a></li>
+                                    <div>
+
+                                    </div>
+
+                </div>
+
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="send.html"><span class="glyphicon glyphicon-log-in"></span> Send detail</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+
+
+
+    <!---iamge slider---->
+
+
+
+    <div class="container">
+        <h2></h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/896831194_WxH.jpg" style="width:100%; height :260px;">
+                </div>
+
+                <div class="item">
+                    <img src="images/aus.jpg" alt="Chicago" style="width:100%; height :260px;">
+                </div>
+
+                <div class="item">
+                    <img src="images/spain.jpg" alt="New york" style="width:100%; height :260px;">
+                </div>
+
+                <div class="item">
+                    <img src="images/Luxury-Cars-Dubai-Mall.jpg" alt="New york" style="width:100%; height :260px;">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!---iamge slider  End---->
+
+
+
+  </br>
+
+
+
+<div>
+
+    <br />
+    <center>
+        <h2>Deals In</h2>
+    </center>
+
+    <pre>
+# Work Visa           # Air ticket
+. Study Visa          . Passport
+. Tourist Visa        . Money Gram
+. Consultants         . Tour Packages
+. Immigration         . Embassy Appointment
+. Work & Settle
+</pre>
+
+</div>
+
+
+    
+
+
+    <!---Middle COntents start---->
+    <hr />
+
+    <div class="container  ">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-circle " src="images/work.jpg" alt="thumb" width="90" height="90" />
+                <h2>Work Visa </h2>
+                <p1> The conditions you must meet and how long you can work in the United States depend on the type of immigration status the Department of Homeland Security (DHS) grants. You must comply with all conditions of your employment authorization and the terms of your admission to this country. If you violate any of the conditions, you could be removed from or denied re-entry into the United States. ..</p1>
+
+                <p> <a class="btn btn-default " href="workvisa.html" role="button">view more &raquo;</a></p>
+
+            </div>
+
+
+
+            <div class="col-lg-4">
+                <img class="img-circle " src="images/study.jpg" alt="thumb" width="90" height="90" />
+                <h2>STUDENT VISA </h2>
+                <p2>Students cannot travel on the Visa Waiver Program or with Visitor VisasA student visa (F or M) is required to study in the United States. Foreign nationals may not study after enteri ..</p2>
+                <p> <a class="btn btn-default " href="studyvisa.html">view More &raquo</a></p>
+
+
+
+
+            </div>
+
+
+
+
+            <div class="col-lg-4">
+                <img class="img-circle" src="images/driver.jpg" alt="thumb" width="90" height="90" />
+                <h2>DRIVING VISA </h2>
+                <p3>If you’re searching for employment or planning to move to Dubai, now is perhaps the best time for it. . </p3>
+                <p> <a class="btn btn-default " href="businessvisa.html" role=button">view More &raquo;</a></p>
+            </div>
+        </div>
+        <!---midle contents End---->
+        <!---Middle COntents start---->
+        <hr />
+
+        <div class="container  ">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-circle " src="images/work.jpg" alt="thumb" width="90" height="90" />
+                    <h2>MALDIVES </h2>
+                    <h1>Shutter carpenter (salary 27,000 inr +food)</h1>
+                    <h1>Steel fixer  (salary 27,000 inr +food)</h1>
+                    <h1>Scalfolder (salary 27,000 inr +food)</h1>
+                    <h1>Helper (salary 27,000 inr +food)</h1>
+
+                    <p> <a class="btn btn-default " href="workvisa.html" role="button">view more &raquo;</a></p>
+
+                </div>
+
+
+
+                <div class="col-lg-4">
+                    <img class="img-circle " src="images/study.jpg" alt="thumb" width="90" height="90" />
+                    <h2>Serbia VISA </h2>
+                    <h1>Tile Mason (salary 27,000 inr +food)</h1>
+                    <h1>ECR/ECNR Accepts.Duty.8</h1>
+                    <h1>Hours (salary 27,000 inr +food)</h1>
+                    <h1>Work test (Video Required)</h1>
+                    <p> <a class="btn btn-default " href="studyvisa.html">view More &raquo</a></p>
+
+
+
+
+                </div>
+
+
+
+
+                <div class="col-lg-4">
+                    <img class="img-circle" src="images/driver.jpg" alt="thumb" width="90" height="90" />
+                    <h2>DRIVING VISA </h2>
+                    <h1>shutter carpenter (salary 27,000 inr +food)</h1>
+                    <h1>shutter carpenter (salary 27,000 inr +food)</h1>
+                    <h1>shutter carpenter (salary 27,000 inr +food)</h1>
+                    <h1>shutter carpenter (salary 27,000 inr +food)</h1>
+                    <p> <a class="btn btn-default " href="businessvisa.html" role=button">view More &raquo;</a></p>
+                </div>
+            </div>
+            <!---midle contents End---->
+
+            <div>
+                <hr />
+                <h2>visa information</h2>
+                <p1>
+                    It is a type of work permit that enables you to enter into a foreign country and work there for a particular period of time. Without a work visa, you cannot work in a foreign country. Different countries may have different procedures and criteria for issuing work permit visas. Work permit visas are issued either on temporary or permanent basis. A temporary work visa remains valid for a particular period of time after which the visa holder needs to renew, if his employer wants to extend his (employee’s) stay.
+
+                    The duration of a work visa depends on the amount of work you have and labor market conditions. In countries like New Zealand offers you the facility to apply for a work to residence visa. To turn your work visa into a residence visa, you need to fulfill the age, health and character requirements. Likewise, in the USA, a foreign citizen can get work visa permit for a maximum period of 6 months. All work visas to USA need to be approved by USCIS (United States Citizenship and Immigration Services).
+
+                    Normally, it is the employer who applies for a work permit visa on your behalf. Work visas require an employer to contact the immigration authority of a particular country and get approval.
+
+                    How to apply for a work visa
+                    Different countries may have different procedures and criteria for issuing work permit visas to employees. You can apply for a work visa by using both online and offline modes of application.
+
+                    Online application: You can apply for a work visa online by visiting the embassy website of a particular country. What you have to do is to fill all information online and pay the visa application fees. The visa application fees can also be transferred online.
+
+                    Offline application: If it is an offline work visa application, you need to download the application form, fill all required details and send it to the concerned embassy of your destination country located in your country. But all countries may not accept online visa applications.
+                </p1>
+
+            </div>
+
+            <hr />
+
+        <h2>New Demand</h2>
+            <div>
+                <div class="container">
+                    <h2></h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+
+
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="demand/1.jpg" style="width:100%; height :260px;">
+                            </div>
+
+                            <div class="item">
+                                <img src="demand/2.jpg" alt="Chicago" style="width:100%; height :260px;">
+                            </div>
+
+                            <div class="item">
+                                <img src="demand/3.jpg" alt="New york" style="width:100%; height :260px;">
+                            </div>
+
+                            <div class="item">
+                                <img src="demand/4.jpg" alt="New york" style="width:100%; height :260px;">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+<hr/>
+
+            <button>Click</button><br><br>
+
+
+
+
+
+
+
+            <center>
+
+                <img id="img1" src="images/2.jpg" style="width:300px;height:300px;background-color:red;">
+        </div>
+        </cemter>
+        <br>
+        <br />
+
+
+        <img id="img2" src="images/1.jpg" style="width:300px;height:300px;background-color:green;"></img>
+        <br>
+        <br>
+        <center>
+            <img id="img3" src="images/3.jpg" style="width:300px;height:300px;background-color:blue;"></img>
+        </center>
+        <br>
+        <br>
+
+        <form id="form1" runat="server">
+            <div>
+                <footer class="container-fluid text-center jumbotron">
+                    <p class="pull-right"><a href="#" BACK TOP </a> </p>
+                    <p>
+                        w@
+                        Back top
+                    </p>
+                </footer>
+            </div>
+        </form>
+</body>
+</html>
+
